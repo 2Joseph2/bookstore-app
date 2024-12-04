@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(27, 24, 51);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h2, h3 {
+  color: rgb(242, 159, 88);
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.book-item {
+  background-color: rgb(83, 100, 147);
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+button {
+  background-color: rgb(171, 68, 89);
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(242, 159, 88);
+}
